@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+header {
+    border-bottom: 2px solid #000;
+    margin: 0 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inline {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    border-right: 3px solid #000;
+    padding: 0 10px;
+}
+
+.inline:last-child {
+    border: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #888;
+}
+
+.information {
+    font-weight: bold;
+    background: url(./img/phone.png) no-repeat right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 60px;
+    height: 75px;
+    margin-top: 15px;
+    padding-top: 15px;
+
+}
+
+.contacts {
+    font-size: 28px;
+    color: #f90;
+}
+
+.email {
+    text-decoration: none;
+    color: #f90;
+    font-size: 20px;
+}
+
+main {
+    width: 1000px;
+    margin: 0 40px;
+}
+
+.head {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+.head-menu {
+    position: absolute;
+    top: -20px;   
+}
+
+.list-caption {
+    padding-left: 50px;
+}
+
+.main-menu {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.price {
+    font-size: 30px;
+    position: absolute;
+    left: 90px;
+    bottom: 130px;
+}
+
+.price-link {
+    text-decoration: none;
+    color: #f00;
+}
+
+.house {
+    margin: 50px 0;
+}
+
+
+
+.projects {
+    display: flex;  
+    position: relative;
+}
+
+.house-designs {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.menu-list {
+    margin-top: 20px;
+    height: 310px;
+    padding: 30px 15px;
+    border: 2px solid #888;
+    border-radius: 6px;
+}
+
+.project-list {
+    width: 120px;
+    margin: 0;
+    padding: 15px;
+    font-size: 18px;
+    list-style-type: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.project-inline {
+    line-height: 40px;
+}
+
+.project-link {
+    color: #888;
+}
+
+.photo-house {
+    width: 250px;
+    height: 180px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #444;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40px;
+    width: 1000px;
+}
+
+.adress {
+    color: #fff;
+}
+
+.footer-email {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer-inline {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    border-right: 3px solid #fff;
+    padding: 0 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+}
